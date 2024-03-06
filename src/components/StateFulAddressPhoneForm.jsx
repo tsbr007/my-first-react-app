@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const MyForm = () => {
+const StateFulAddressPhoneForm = () => {
   const [formData, setFormData] = useState({
     address1: '',
     address2: '',
@@ -59,4 +59,4 @@ const MyForm = () => {
   );
 };
 
-export default MyForm;
+export default StateFulAddressPhoneForm;
